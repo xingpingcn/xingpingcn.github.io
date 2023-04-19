@@ -703,10 +703,10 @@ button {
     filter: brightness(70%) !important;
   }
   :root:not([color-scheme]) .blur {
-    background: rgba(31,31,31,0.9) !important;
+    background: rgba(31,31,31,0.8) !important;
   }
   :root:not([color-scheme]) .white-box.blur {
-    background: rgba(38,38,38,0.9) !important;
+    background: rgba(38,38,38,0.8) !important;
   }
   :root:not([color-scheme]) .nav-main .u-search-input {
     background: var(--color-card) !important;
@@ -775,10 +775,10 @@ button {
   filter: brightness(70%) !important;
 }
 [color-scheme='dark'] .blur {
-  background: rgba(31,31,31,0.9) !important;
+  background: rgba(31,31,31,0.8) !important;
 }
 [color-scheme='dark'] .white-box.blur {
-  background: rgba(38,38,38,0.9) !important;
+  background: rgba(38,38,38,0.8) !important;
 }
 [color-scheme='dark'] .nav-main .u-search-input {
   background: var(--color-card) !important;
