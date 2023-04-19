@@ -960,7 +960,7 @@ button {
   height: 58px;
 }
 .l_header .nav-sub {
-  max-width: 1080px;
+  max-width: 100%;
   margin: auto;
 }
 .l_header .nav-sub .title {
