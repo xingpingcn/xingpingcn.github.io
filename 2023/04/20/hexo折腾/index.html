@@ -34,7 +34,7 @@
   <!-- feed -->
   <!-- 页面元数据 -->
   <title>自定义volantis遇到的坑 - 邢平cn'blog</title>
-  <meta name="keywords" content="volantis 404页面 sidebar 不生效 图片 显示尺寸,计算机,马克思主义">
+  <meta name="keywords" content="volantis 404页面 sidebar 不生效 图片 显示尺寸,null">
   <meta desc name="description" content="volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？ - 邢平cn - 邢平cn'blog">
   
 <meta property="og:type" content="article">
@@ -1773,7 +1773,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1682010498920),
+    lastupdate: new Date(1682011967660),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -2516,7 +2516,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
     <meta itemprop="name" content="邢平cn'blog">
-    <meta itemprop="description" content="写一些东西">
+    <meta itemprop="description" content="">
   </span>
   
 
@@ -2524,7 +2524,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class='headimg-div'>
       <a class='headimg-a'>
-        <img itemprop="image" class='headimg' src='https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.5hpz9c2gz240.png'/>
+        <img itemprop="image" class='headimg' src='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.5hpz9c2gz240.png'/>
       </a>
     </div>
   
@@ -2643,7 +2643,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <figure class="highlight html"><figcaption><span>blog\node_modules\hexo-theme-volantis\layout\_widget\blogger.ejs</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">&quot;widget blur floatable shadow &lt;%- item.class %&gt;  &lt;%- page.widget_platform %&gt; &lt;%- page.widget_pjax %&gt;&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>刷新就可以看到效果生效，左边的<code>blogger</code>组件有高斯模糊并且有阴影效果了。</p>
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload" src="https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" class="lazyload" data-srcset="https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="效果" style="width:80%;"/></div><span class="image-caption">效果</span></div>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="效果" style="width:80%;"/></div><span class="image-caption">效果</span></div>
 
 <p>其他组件也是同样的方法，关键是要找到这行代码</p>
 <figure class="highlight html"><figcaption><span>blog\node_modules\hexo-theme-volantis\layout\_widget\blogger.ejs</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">section</span> <span class="attr">class</span>=<span class="string">&quot;widget ...&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -2651,10 +2651,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>这行代码可以在浏览器打开元素查看器找到</p>
 <div class="note info"><p>按<kbd>F12</kbd>可以打开元素查看器</p></div>
 
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload" src="https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png" class="lazyload" data-srcset="https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="效果" style="width:80%;"/></div><span class="image-caption">效果</span></div>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="效果" style="width:80%;"/></div><span class="image-caption">效果</span></div>
 
 <h2 id="更改图片显示尺寸"><a href="#更改图片显示尺寸" class="headerlink" title="更改图片显示尺寸"></a>更改图片显示尺寸</h2><p>使用以下代码，则能显示如本post中的图片一样的效果</p>
-<pre><code>&#123;% image https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png::width=80%::alt=效果 %&#125;
+<pre><code>&#123;% image https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.2v43xxro3vs0.png::width=80%::alt=效果 %&#125;
 </code></pre>
 <p>其中的<code>url</code>，<code>width</code>和<code>alt</code>可以自己修改。<code>width</code>的单位可以是<code>px</code>也可以是百分比<code>%</code></p>
 
@@ -3602,7 +3602,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","sameAs":["https://github.com/xingpingcn"],"description":"写一些东西"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xingpingcn.github.io/","name":"邢平cn'blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xingpingcn.github.io/2023/04/20/hexo折腾/","name":"自定义volantis遇到的坑"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","keywords":"计算机,马克思主义","description":"写一些东西","author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","description":"写一些东西"},"publisher":{"@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xingpingcn.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"自定义volantis遇到的坑","description":"volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xingpingcn.github.io/2023/04/20/hexo%E6%8A%98%E8%85%BE/"},"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/"},"publisher":{"@type":"Organization","name":"邢平cn'blog","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"url":"https://xingpingcn.github.io/2023/04/20/hexo%E6%8A%98%E8%85%BE/","wordCount":63,"datePublished":"2023-04-20T15:00:16.000Z","dateModified":"2023-04-20T17:07:27.197Z","keywords":"volantis","image":{"@type":"ImageObject","url":"https://gcore.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230420/image.5hpz9c2gz240.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","sameAs":["https://github.com/xingpingcn"],"description":null},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xingpingcn.github.io/","name":"邢平cn'blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xingpingcn.github.io/2023/04/20/hexo折腾/","name":"自定义volantis遇到的坑"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","keywords":null,"description":null,"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","description":null},"publisher":{"@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xingpingcn.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"自定义volantis遇到的坑","description":"volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xingpingcn.github.io/2023/04/20/hexo%E6%8A%98%E8%85%BE/"},"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/"},"publisher":{"@type":"Organization","name":"邢平cn'blog","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"url":"https://xingpingcn.github.io/2023/04/20/hexo%E6%8A%98%E8%85%BE/","wordCount":63,"datePublished":"2023-04-20T15:00:16.000Z","dateModified":"2023-04-20T17:07:27.197Z","keywords":"volantis","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.5hpz9c2gz240.png","width":1024,"height":768}}]</script>
 
 
 
