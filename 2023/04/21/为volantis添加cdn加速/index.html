@@ -45,7 +45,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/%E8%87%AD%E5%8D%B7%E5%8C%85%E5%9C%86%E5%BD%A2.2rx79tqffvu0.png">
 <meta property="article:published_time" content="2023-04-21T08:35:18.593Z">
-<meta property="article:modified_time" content="2023-04-21T09:32:56.532Z">
+<meta property="article:modified_time" content="2023-04-21T09:41:59.026Z">
 <meta property="article:author" content="邢平cn">
 <meta property="article:tag" content="volantis">
 <meta name="twitter:card" content="summary">
@@ -1777,7 +1777,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"https://jsd.cdn.zzko.cn/gh/xingpingcn/website.comments/app.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/parallax.js","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenu.js","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/rightMenus.js","sites":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/sites.js","friends":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/friends.js","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/plugins/tags/contributors.js","search":"https://unpkg.com/hexo-theme-volantis@5.7.7/source/js/search/hexo.js"},"css":{"style":"https://jsd.cdn.zzko.cn/gh/xingpingcn/website.comments/style1.css"}},
     default: {"avatar":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1682069907668),
+    lastupdate: new Date(1682070224599),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -2553,7 +2553,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateModified" datetime="2023-04-21T17:32:56+08:00">
+            <div class="new-meta-item date" itemprop="dateModified" datetime="2023-04-21T17:41:59+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2023年4月21日</p>
@@ -2600,7 +2600,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：720 字</p>
+      <p>字数：770 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -2633,9 +2633,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <a class="ghcard" rel="external nofollow noopener noreferrer noopener" target="_blank" href="https://github.com/54ayao/Chinajsdelivr"><img src="https://github-readme-stats.vercel.app/api/pin/?username=54ayao&repo=Chinajsdelivr&show_owner=true" class="lazyload" data-srcset="https://github-readme-stats.vercel.app/api/pin/?username=54ayao&repo=Chinajsdelivr&show_owner=true" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></a>
 
 <p>如果仔细观察上面的图，可以发现访问的<code>style.css</code>变成了<code>style.xxxx.css</code>，同理<code>app.js</code>。这个是hexo在生成<code>public</code>文件夹的时候生成的，而怎么样不让他改为这种类型的名字，我不知道怎么样做。出于保险，我用了一个替代的方案，把<code>blog\public\css\style.xxxx.css</code>复制出来，并重命名为<code>style.css</code>，同理<code>app.js</code>。由于访问<code>jsd.cdn.zzko.cn</code>的响应头（response）中没有指定<code>content-type: charset=utf-8</code>，因而浏览器在解析的时候会出错。这时需要在<code>style.css</code>手动添加代码</p>
+<div class="note warning red"><p>如果在配置文件中修改了<code>css</code>布局，如<code>sidebar</code>从左边移到了右边，则需要重新添加代码并上传至GitHub，因而推荐弄好布局后再上传</p></div>
+
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@charset</span> <span class="string">&quot;UTF-8&quot;</span>;</span><br></pre></td></tr></table></figure>
 
 <div class="note warning"><p>需要在第一行顶格填写</p></div>
+
 
 <p>这时我们有了能正常访问的<code>css</code>文件（<code>js</code>不需要改）</p>
 <p>之后需要cdn加速<code>css</code>和<code>js</code>文件。建议在GitHub新开一个不同于个人GitHub page的<code>repo</code>，然后在根目录<code>/</code>上传这两个改了名字后的<code>css</code>和<code>js</code>文件，使用</p>
@@ -3672,7 +3675,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","sameAs":["https://github.com/xingpingcn"],"description":null},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xingpingcn.github.io/","name":"邢平cn'blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xingpingcn.github.io/2023/04/21/为volantis添加cdn加速/","name":"为volantis添加cdn加速"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","keywords":null,"description":null,"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","description":null},"publisher":{"@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xingpingcn.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"为volantis添加cdn加速","description":"volantis访问太慢 cdn加速 图床cdn加速","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xingpingcn.github.io/2023/04/21/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F/"},"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/"},"publisher":{"@type":"Organization","name":"邢平cn'blog","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"url":"https://xingpingcn.github.io/2023/04/21/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F/","wordCount":53,"datePublished":"2023-04-21T08:35:18.593Z","dateModified":"2023-04-21T09:32:56.532Z","keywords":"volantis","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.55d0qoox6bg0.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","sameAs":["https://github.com/xingpingcn"],"description":null},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://xingpingcn.github.io/","name":"邢平cn'blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://xingpingcn.github.io/2023/04/21/为volantis添加cdn加速/","name":"为volantis添加cdn加速"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","keywords":null,"description":null,"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/","description":null},"publisher":{"@type":"Organization","name":"邢平cn'blog","url":"https://xingpingcn.github.io/","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://xingpingcn.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"为volantis添加cdn加速","description":"volantis访问太慢 cdn加速 图床cdn加速","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://xingpingcn.github.io/2023/04/21/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F/"},"author":{"@type":"Person","name":"邢平cn","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png"},"url":"https://xingpingcn.github.io/"},"publisher":{"@type":"Organization","name":"邢平cn'blog","logo":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230419/臭卷包圆形.2rx79tqffvu0.png","width":192,"height":192}},"url":"https://xingpingcn.github.io/2023/04/21/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F/","wordCount":53,"datePublished":"2023-04-21T08:35:18.593Z","dateModified":"2023-04-21T09:41:59.026Z","keywords":"volantis","image":{"@type":"ImageObject","url":"https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.55d0qoox6bg0.png","width":1024,"height":768}}]</script>
 
 
 
