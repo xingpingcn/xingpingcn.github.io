@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://xingpingcn.github.io/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</loc>
+        <lastmod>2023-04-23T17:13:49.846Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.github.io/hexo%E6%8A%98%E8%85%BE.html</loc>
         <lastmod>2023-04-23T17:00:47.417Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,14 +27,6 @@
     <url>
         <loc>https://xingpingcn.github.io/test4.html</loc>
         <lastmod>2023-04-23T16:37:32.524Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.github.io/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</loc>
-        <lastmod>2023-04-23T14:44:33.877Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
