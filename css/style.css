@@ -343,8 +343,8 @@ article#cat .all-cats a {
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
   padding: 8px 16px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   color: var(--color-list);
   font-size: 0.9375rem;
   font-weight: 500;
@@ -398,8 +398,8 @@ article#tag .all-tags ul {
 article#tag .all-tags ul li {
   list-style: none;
   margin: 8px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   overflow: hidden;
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
@@ -427,8 +427,8 @@ article#tag .all-tags ul li span {
   color: var(--color-meta);
   background: var(--color-card);
   padding: 2px 8px;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
   pointer-events: none;
   position: absolute;
   right: 2px;
@@ -533,9 +533,9 @@ article#tag .all-tags ul li span:before {
 }
 .article blockquote {
   background: var(--color-block);
-  border-left: 4px solid #3dd9b6;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-left: 8px solid #3dd9b6;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 .article blockquote {
   position: relative;
@@ -575,7 +575,7 @@ article#tag .all-tags ul li span:before {
 }
 .article blockquote.pullquote.right {
   border-left: none;
-  border-right: 4px solid #3dd9b6;
+  border-right: 8px solid #3dd9b6;
 }
 .article blockquote.pullquote.right p {
   text-align: right;
@@ -596,15 +596,15 @@ article#tag .all-tags ul li span:before {
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   border: 1px solid #ffebcb;
   padding: 16px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 .article pre >code:not([class]) {
   background: transparent;
 }
 .article div>pre {
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 .article div>pre>code:not([class]) {
   padding: 0;
@@ -618,8 +618,8 @@ article#tag .all-tags ul li span:before {
 .article code:not([class]) {
   word-break: break-all;
   color: var(--color-inlinecode);
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 @media screen and (max-width: 500px) {
   .article ul,
@@ -636,8 +636,8 @@ article#tag .all-tags ul li span:before {
   margin: 1em 0;
   box-shadow: none;
   -webkit-box-shadow: none;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   cursor: auto;
   background: var(--color-block);
   padding: 8px 0;
@@ -797,8 +797,8 @@ article#tag .all-tags ul li span:before {
 .md .footer .references,
 .md .footer .related_posts {
   background: var(--color-block);
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   padding: 16px;
 }
 .md .footer .references .body a {
@@ -1107,8 +1107,8 @@ footer.footer .copyright p {
   display: -webkit-flex /* NEW - Chrome */;
   display: flex /* NEW, Spec - Opera 12.1, Firefox 20+ */;
   display: flex;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   -webkit-box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   padding: 8px 0;
@@ -1247,7 +1247,8 @@ footer.footer .copyright p {
   }
 }
 .md div>img,
-.md p>img {
+.md p>img,
+.md a>img {
   display: -webkit-box /* OLD - iOS 6-, Safari 3.1-6 */;
   display: -moz-box /* OLD - Firefox 19- (buggy but mostly works) */;
   display: block;
@@ -1257,9 +1258,10 @@ footer.footer .copyright p {
 }
 @media screen and (max-width: 500px) {
   .md div>img,
-  .md p>img {
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
+  .md p>img,
+  .md a>img {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
   }
 }
 .md span img {
@@ -1271,8 +1273,8 @@ footer.footer .copyright p {
 .md .img-wrap {
   margin: 1.5rem auto;
   text-align: center;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
   overflow: hidden;
 }
 .md .img-wrap .img-bg {
@@ -1783,8 +1785,8 @@ svg.loading {
     width: 100%;
     margin-top: 16px;
     background: var(--color-block);
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
   }
 }
 #l_main .post .article-meta .new-meta-box .share-body {
@@ -2124,8 +2126,8 @@ img.lazyload:not(.placeholder).loaded {
   margin: auto;
   padding: 1em 3em;
   border: 1px solid #3dd9b6;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   color: #3dd9b6;
   font-weight: 500;
 }
@@ -2196,8 +2198,8 @@ img.lazyload:not(.placeholder).loaded {
   padding: 8px;
   color: var(--color-meta);
   background: var(--color-block);
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 #l_main .article .prev-next >a:hover {
   background: #ffeee8;
@@ -4469,8 +4471,8 @@ details {
   display: block;
   padding: 16px;
   margin: 1em 0;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   background: var(--color-card);
   font-size: 0.9375rem;
   transition: all 0.28s ease;
@@ -4485,8 +4487,8 @@ details summary {
   cursor: pointer;
   padding: 16px;
   margin: -16px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   color: rgba(68,68,68,0.7);
   font-size: 0.875rem;
   font-weight: bold;
@@ -4985,8 +4987,8 @@ img.inline {
 }
 audio,
 video {
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   max-width: 100%;
 }
 video {
@@ -5035,8 +5037,8 @@ div.videos iframe {
   margin: 4px;
 }
 div.videos iframe {
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   width: 100%;
   min-height: 300px;
 }
@@ -5924,8 +5926,8 @@ div.timenode:hover .meta:after {
 .article mjx-container {
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   padding: 16px 8px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   min-width: 0 !important;
 }
 .article mjx-container[jax="CHTML"][display="true"],
@@ -6728,8 +6730,8 @@ pre {
   background: var(--color-block);
   font-size: 0.8125rem;
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
   line-height: 1.5;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -6761,8 +6763,8 @@ pre {
   left: 0;
   padding: 4px 8px 4px 8px;
   background: #eaeaea;
-  border-top-left-radius: calc(4px - 1px);
-  border-top-right-radius: calc(4px - 1px);
+  border-top-left-radius: calc(8px - 1px);
+  border-top-right-radius: calc(8px - 1px);
 }
 .highlight >table {
   overflow: auto;
@@ -6783,8 +6785,8 @@ pre {
 .highlight >table::-webkit-scrollbar-thumb {
   background: transparent;
   cursor: pointer;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
 }
 .highlight >table:hover::-webkit-scrollbar-thumb {
   background: rgba(68,68,68,0.5);
