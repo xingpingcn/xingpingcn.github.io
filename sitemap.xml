@@ -4,7 +4,7 @@
 
     <sitemap>
         <loc>https://xingpingcn.github.io/post-sitemap.xml</loc>
-        <lastmod>2023-04-22T18:34:01.035Z</lastmod>
+        <lastmod>2023-04-23T03:55:17.242Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -13,8 +13,13 @@
     </sitemap>
 
     <sitemap>
+        <loc>https://xingpingcn.github.io/category-sitemap.xml</loc>
+        <lastmod>2023-04-23T03:55:17.242Z</lastmod>
+    </sitemap>
+
+    <sitemap>
         <loc>https://xingpingcn.github.io/tag-sitemap.xml</loc>
-        <lastmod>2023-04-22T18:34:01.035Z</lastmod>
+        <lastmod>2023-04-23T03:55:17.242Z</lastmod>
     </sitemap>
 
 </sitemapindex>
