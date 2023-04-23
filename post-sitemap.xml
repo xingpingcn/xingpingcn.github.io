@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://xingpingcn.github.io/test4.html</loc>
+        <lastmod>2023-04-23T16:37:32.524Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.github.io/hexo%E6%8A%98%E8%85%BE.html</loc>
         <lastmod>2023-04-23T15:16:08.784Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -27,14 +35,6 @@
     <url>
         <loc>https://xingpingcn.github.io/hello-world.html</loc>
         <lastmod>2023-04-22T18:34:01.035Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.github.io/test4.html</loc>
-        <lastmod>2023-04-21T09:36:18.663Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
