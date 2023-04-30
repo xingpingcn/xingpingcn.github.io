@@ -37,44 +37,12 @@
   margin: 0;
   padding: 0;
 }
-*::-webkit-scrollbar {
-  height: 4px;
-  width: 4px;
-}
-*::-webkit-scrollbar-track-piece {
-  background: transparent;
-}
-*::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
-  cursor: pointer;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-*::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
-}
 html {
   color: var(--color-text);
   width: 100%;
   height: 100%;
   font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   font-size: 16px;
-}
-html >::-webkit-scrollbar {
-  height: 4px;
-  width: 4px;
-}
-html >::-webkit-scrollbar-track-piece {
-  background: transparent;
-}
-html >::-webkit-scrollbar-thumb {
-  background: #3dd9b6;
-  cursor: pointer;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-}
-html >::-webkit-scrollbar-thumb:hover {
-  background: #ff5722;
 }
 body {
   background-color: var(--color-site-body);
