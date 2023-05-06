@@ -1745,9 +1745,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/js/app.js","parallax":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/parallax.js","rightMenu":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenu.js","rightMenus":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenus.js","sites":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/sites.js","friends":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/friends.js","contributors":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/contributors.js","search":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
+    cdn: {"js":{"app":"/js/app.js","parallax":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/parallax.js","rightMenu":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenu.js","rightMenus":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenus.js","sites":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/sites.js","friends":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/friends.js","contributors":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/contributors.js","search":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/search/hexo.js","lazyload-placeholder":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/lazyload-placeholder.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1682883770778),
+    lastupdate: new Date(1683370796760),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -2005,7 +2005,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.import = {
     jQuery: () => {
       if (typeof jQuery == "undefined") {
-        return volantis.js("https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/libs/jquery/dist/jquery.min.js")
+        return volantis.js("https://jsd.cdn.zzko.cn/npm/jquery@3.6.0/dist/jquery.min.js")
       } else {
         return new Promise(resolve => {
           resolve()
@@ -2580,7 +2580,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：852 字</p>
+      <p>字数：856 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -2607,7 +2607,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <span id="more"></span>
 
 <div class="story post-story"><h2 id="寻找访问慢的根源"><a href="#寻找访问慢的根源" class="headerlink" title="寻找访问慢的根源"></a>寻找访问慢的根源</h2><p>打开<code>调试台</code>-<code>网络</code>，查看原因</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png' data-fancybox='default' data-caption='寻找访问慢的根源'><img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="寻找访问慢的根源" loading="lazy"></a><span class='image-caption'>寻找访问慢的根源</span></div></div>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox' style='position: relative; width: 100%;'>
+            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png' data-fancybox='default' data-caption='寻找访问慢的根源' style="position: relative;background-color: rgb(204, 204, 204);border-radius: 4px; padding-bottom: 38.59375%;color:gray;">
+            <div style="position: absolute; left: 50%; top: 50%;transform: translate(-50%, -50%);">loading picture...</div>
+            <img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="寻找访问慢的根源" loading="lazy">
+            </a><span class='image-caption'>寻找访问慢的根源</span></div></div>
 
 
 <p>可以看到，访问<code>GitHub page</code>、<code>css</code>文件和<code>js</code>文件都超过了1秒以上，加载图片更是慢的不得了，这几个问题都是要解决的。</p>
@@ -2647,7 +2651,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class="tag link"><a class="link-card" title="PicX图床工具官方文档" target="_blank" rel="noopener" href="https://picx-docs.xpoet.cn"><div class="left"><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.1anm5qwvdhnk.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.1anm5qwvdhnk.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">PicX图床工具官方文档</p><p class="url">https://picx-docs.xpoet.cn</p></div></a></div>
 
 </div><div class="story post-story"><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>最后看看访问速度</p>
-<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png' data-fancybox='default' data-caption='访问速度快'><img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="访问速度快" loading="lazy"></a><span class='image-caption'>访问速度快</span></div></div>
+<div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox' style='position: relative; width: 100%;'>
+            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png' data-fancybox='default' data-caption='访问速度快' style="position: relative;background-color: rgb(204, 204, 204);border-radius: 4px; padding-bottom: 48.489583333333336%;color:gray;">
+            <div style="position: absolute; left: 50%; top: 50%;transform: translate(-50%, -50%);">loading picture...</div>
+            <img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.7grs1emx5ok0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="访问速度快" loading="lazy">
+            </a><span class='image-caption'>访问速度快</span></div></div>
 
 
 
@@ -2669,7 +2677,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <i class="fa-solid fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
     </section>
     <section class='body'>
-      <div class="vlts-rps"><a class="item" href="\hexo折腾.html" title="使用volantis中遇到的坑" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" /><span class="title">使用volantis中遇到的坑</span><span class="excerpt">volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？手机模式下toc会被遮挡</span></a></div></section></div>
+      <div class="vlts-rps"><a class="item" href="\hexo折腾.html" title="使用volantis中遇到的坑" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.3ezxjhosk9i.png" /><span class="title">使用volantis中遇到的坑</span><span class="excerpt">volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？手机模式下toc会被遮挡</span></a><a class="item" href="\为hexo博客添加自适应图片占位图.html" title="为hexo博客添加自适应图片占位图" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230506/image.p9bxtn3d6ww.webp" /><span class="title">为hexo博客添加自适应图片占位图</span><span class="excerpt">为解决图片抖动问题添加自适应图片占位图</span></a></div></section></div>
       
       <!-- 版权声明组件 -->
       
@@ -2769,6 +2777,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
+        <a class='prev' href='/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>为hexo博客添加自适应图片占位图</p>
+          <p class='content'>我们要得到的结果如封面所示
+由于博客采用了图片懒加载（lazyload）插件，在加载dom后和图片加载成功之前，图片占位图为1px的像素，图片加载成功之后，则会把布局撑开，造成布局抖动。如果把和...</p>
+        </a>
+      
       
         <a class='next' href='/hexo%E6%8A%98%E8%85%BE.html'>
           <p class='title'>使用volantis中遇到的坑<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
@@ -2843,18 +2857,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='content'>
     <ul class="list entry navigation">
       
-        <li><a class="flat-box" title="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"
-          
-          
-          active-action="action-E4B8BAvolantisE6B7BBE58AA0cdnE58AA0E9809Fhtml"
-          >
-          <div class='name'>
-            
-            为volantis添加cdn加速
-          </div>
-          
-        </a></li>
-      
         <li><a class="flat-box" title="/hexo%E6%8A%98%E8%85%BE.html" href="/hexo%E6%8A%98%E8%85%BE.html"
           
           
@@ -2863,6 +2865,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <div class='name'>
             
             使用volantis中遇到的坑
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html"
+          
+          
+          active-action="action-E4B8BAhexoE58D9AE5AEA2E6B7BBE58AA0E887AAE98082E5BA94E59BBEE78987E58DA0E4BD8DE59BBEhtml"
+          >
+          <div class='name'>
+            
+            为hexo博客添加自适应图片占位图
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"
+          
+          
+          active-action="action-E4B8BAvolantisE6B7BBE58AA0cdnE58AA0E9809Fhtml"
+          >
+          <div class='name'>
+            
+            为volantis添加cdn加速
           </div>
           
         </a></li>

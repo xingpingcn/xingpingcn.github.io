@@ -4221,18 +4221,14 @@ div.gallery+.gallery {
 div.gallery >.fancybox,
 div.gallery >p>.fancybox {
   margin: 1px;
-  padding: 0;
-  position: relative;
 }
 div.gallery >.fancybox a,
 div.gallery >p>.fancybox a {
-  height: 100%;
   width: 100%;
 }
 div.gallery >.fancybox img,
 div.gallery >p>.fancybox img {
   object-fit: cover;
-  height: 100%;
   width: 100%;
 }
 div.gallery >.fancybox .image-caption,
@@ -4403,21 +4399,24 @@ div.fancybox {
   -moz-flex-wrap: nowrap;
   -o-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
-  padding: 0 !important;
+  position: relative;
   overflow: hidden;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 @media screen and (max-width: 500px) {
   div.fancybox {
-    border-radius: 1px;
-    -webkit-border-radius: 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
   }
 }
 div.fancybox a {
+  height: 0;
   line-height: 0;
   margin: 0 auto;
   align-items: stretch;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
 }
 div.fancybox .gallery {
   overflow: hidden;

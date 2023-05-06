@@ -1745,9 +1745,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: "env",
-    cdn: {"js":{"app":"/js/app.js","parallax":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/parallax.js","rightMenu":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenu.js","rightMenus":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenus.js","sites":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/sites.js","friends":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/friends.js","contributors":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/contributors.js","search":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
+    cdn: {"js":{"app":"/js/app.js","parallax":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/parallax.js","rightMenu":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenu.js","rightMenus":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenus.js","sites":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/sites.js","friends":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/friends.js","contributors":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/contributors.js","search":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/search/hexo.js","lazyload-placeholder":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/lazyload-placeholder.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1682883770778),
+    lastupdate: new Date(1683370796760),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -2005,7 +2005,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.import = {
     jQuery: () => {
       if (typeof jQuery == "undefined") {
-        return volantis.js("https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/libs/jquery/dist/jquery.min.js")
+        return volantis.js("https://jsd.cdn.zzko.cn/npm/jquery@3.6.0/dist/jquery.min.js")
       } else {
         return new Promise(resolve => {
           resolve()
@@ -2580,7 +2580,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：781 字</p>
+      <p>字数：786 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -2646,7 +2646,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <p>其中的<code>border-radius</code>就是半径的<code>key</code>（默认的配置文件中应该有3个，我没有复制全），修改你想要的<code>value</code>。</p>
 <p>如果在像我一样在第7行行尾添加<code>a&gt;img</code>，则可以修改使用<code>gallery</code>标签插件的图片中<code>border-radius</code>的值。</p>
-</div><div class="story post-story"><h2 id="解决手机模式下toc会被遮挡的问题"><a href="#解决手机模式下toc会被遮挡的问题" class="headerlink" title="解决手机模式下toc会被遮挡的问题"></a>解决手机模式下toc会被遮挡的问题</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png' data-fancybox='default' data-caption='toc被遮挡'><img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="toc被遮挡" loading="lazy"></a><span class='image-caption'>toc被遮挡</span></div><br><div class='fancybox'><a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png' data-fancybox='default' data-caption='解决后'><img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="解决后" loading="lazy"></a><span class='image-caption'>解决后</span></div></div>
+</div><div class="story post-story"><h2 id="解决手机模式下toc会被遮挡的问题"><a href="#解决手机模式下toc会被遮挡的问题" class="headerlink" title="解决手机模式下toc会被遮挡的问题"></a>解决手机模式下toc会被遮挡的问题</h2><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox' style='position: relative; width: 100%;'>
+            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png' data-fancybox='default' data-caption='toc被遮挡' style="position: relative;background-color: rgb(204, 204, 204);border-radius: 4px; padding-bottom: 97.81477627471384%;color:gray;">
+            <div style="position: absolute; left: 50%; top: 50%;transform: translate(-50%, -50%);">loading picture...</div>
+            <img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.64ovonl779w0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="toc被遮挡" loading="lazy">
+            </a><span class='image-caption'>toc被遮挡</span></div><br><div class='fancybox' style='position: relative; width: 100%;'>
+            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" target="_blank" rel="noopener" href='https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png' data-fancybox='default' data-caption='解决后' style="position: relative;background-color: rgb(204, 204, 204);border-radius: 4px; padding-bottom: 97.81477627471384%;color:gray;">
+            <div style="position: absolute; left: 50%; top: 50%;transform: translate(-50%, -50%);">loading picture...</div>
+            <img fancybox itemprop="contentUrl" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png" class="lazyload" data-srcset="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.30uajx353wa0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="解决后" loading="lazy">
+            </a><span class='image-caption'>解决后</span></div></div>
 
 <p>只需要在<code>\navbar_first.styl</code>中修改<code>z-index</code>值为一个较小的数字。</p>
 <figure class="highlight plaintext"><figcaption><span>blog\node_modules\hexo-theme-volantis\source\css\_first</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">.l_header</span><br><span class="line">  $iconW = 36px</span><br><span class="line">  $iconMargin = 4px</span><br><span class="line">  position: fixed</span><br><span class="line">  z-index: 10</span><br></pre></td></tr></table></figure>
@@ -2667,7 +2675,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <i class="fa-solid fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
     </section>
     <section class='body'>
-      <div class="vlts-rps"><a class="item" href="\为volantis添加cdn加速.html" title="为volantis添加cdn加速" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" /><span class="title">为volantis添加cdn加速</span><span class="excerpt">volantis访问太慢 cdn加速 图床cdn加速</span></a></div></section></div>
+      <div class="vlts-rps"><a class="item" href="\为hexo博客添加自适应图片占位图.html" title="为hexo博客添加自适应图片占位图" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230506/image.p9bxtn3d6ww.webp" /><span class="title">为hexo博客添加自适应图片占位图</span><span class="excerpt">为解决图片抖动问题添加自适应图片占位图</span></a><a class="item" href="\为volantis添加cdn加速.html" title="为volantis添加cdn加速" rel="bookmark "><img src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.az5hs7zk4ck.png" /><span class="title">为volantis添加cdn加速</span><span class="excerpt">volantis访问太慢 cdn加速 图床cdn加速</span></a></div></section></div>
       
       <!-- 版权声明组件 -->
       
@@ -2773,10 +2781,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 寻找访问慢的根源打开调试台-网络，查看原因
-寻找访问慢的根源
 
-
-可以看到，访问G...</p>
+            
+     ...</p>
         </a>
       
       
@@ -2873,18 +2880,6 @@ info about a cat
   <div class='content'>
     <ul class="list entry navigation">
       
-        <li><a class="flat-box" title="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"
-          
-          
-          active-action="action-E4B8BAvolantisE6B7BBE58AA0cdnE58AA0E9809Fhtml"
-          >
-          <div class='name'>
-            
-            为volantis添加cdn加速
-          </div>
-          
-        </a></li>
-      
         <li><a class="flat-box" title="/hexo%E6%8A%98%E8%85%BE.html" href="/hexo%E6%8A%98%E8%85%BE.html"
           
           
@@ -2893,6 +2888,30 @@ info about a cat
           <div class='name'>
             
             使用volantis中遇到的坑
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html"
+          
+          
+          active-action="action-E4B8BAhexoE58D9AE5AEA2E6B7BBE58AA0E887AAE98082E5BA94E59BBEE78987E58DA0E4BD8DE59BBEhtml"
+          >
+          <div class='name'>
+            
+            为hexo博客添加自适应图片占位图
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"
+          
+          
+          active-action="action-E4B8BAvolantisE6B7BBE58AA0cdnE58AA0E9809Fhtml"
+          >
+          <div class='name'>
+            
+            为volantis添加cdn加速
           </div>
           
         </a></li>
