@@ -1745,7 +1745,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/parallax.js","rightMenu":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenu.js","rightMenus":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/rightMenus.js","sites":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/sites.js","friends":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/friends.js","contributors":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/plugins/tags/contributors.js","search":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/search/hexo.js","lazyload-placeholder":"https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io/js/lazyload-placeholder.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://jsd.cdn.zzko.cn/npm/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1683445418368),
+    lastupdate: new Date(1683447568176),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","webinfo"],
       for_post: ["toc"],
@@ -2448,7 +2448,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class="post-wrapper">
             <div class="post post-v3 white-box reveal waves-effect waves-block shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="https://xingpingcn.github.io/为hexo博客添加自适应图片占位图.html">
+  <link itemprop="mainEntityOfPage" href="https://xingpingcn.github.io/hexo_zishiyin_zhanweitu.html">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="邢平cn's blog">
   </span>
@@ -2460,7 +2460,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   
     <div class="headimg-div">
-      <a class="headimg-a" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html">
+      <a class="headimg-a" href="/hexo_zishiyin_zhanweitu.html">
         <img itemprop="image" class="headimg" alt="为hexo博客添加自适应图片占位图" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230506/image.p9bxtn3d6ww.webp">
       </a>
     </div>
@@ -2468,13 +2468,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
     <h2 class="article-title" itemprop="name headline">
-      <a href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html" style="display:block;" itemprop="url">
+      <a href="/hexo_zishiyin_zhanweitu.html" style="display:block;" itemprop="url">
         为hexo博客添加自适应图片占位图
       </a>
     </h2>
   
   <div>
-    <a class="md article-desc" itemprop="articleBody" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html">
+    <a class="md article-desc" itemprop="articleBody" href="/hexo_zishiyin_zhanweitu.html">
       
         <p>我们要得到的结果如封面所示</p>
 <p>由于博客采用了图片懒加载（lazyload）插件，在加载dom后和图片加载成功之前，图片占位图为1px的像素，图片加载成功之后，则会把布局撑开，造成布局抖动。如果把和要加载的图片（本博客所有图片都放在了GitHub图床上，所以要用到<code>image-size</code>库访问远程图片）一样大小的占位图替代1px大小的占位图，则能解决布局抖动问题。本post将会占位图以硬编码的方式写到<code>dom</code>中，这需要修改在生成hexo博客时会用到的<code>fancybox.js</code>（或许每个主题用到的文件里都不一样，但最终都会使用<code>hexo.extend.tag.register()</code>方法；本博客使用<code>volantis</code>主题）。</p>
@@ -2508,7 +2508,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           </div>
           
             
-              <a class="readmore" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html" style="float: right; padding-left: calc(90% - 240px) ;" itemprop="url">
+              <a class="readmore" href="/hexo_zishiyin_zhanweitu.html" style="float: right; padding-left: calc(90% - 240px) ;" itemprop="url">
                 <div>
                   阅读全文
                 </div>
@@ -2529,7 +2529,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           <div class="post-wrapper">
             <div class="post post-v3 white-box reveal waves-effect waves-block shadow floatable blur" itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="https://xingpingcn.github.io/为volantis添加cdn加速.html">
+  <link itemprop="mainEntityOfPage" href="https://xingpingcn.github.io/volantis_cdn.html">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="邢平cn's blog">
   </span>
@@ -2541,7 +2541,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   
     <div class="headimg-div">
-      <a class="headimg-a" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html">
+      <a class="headimg-a" href="/volantis_cdn.html">
         <img itemprop="image" class="headimg" alt="为volantis添加cdn加速" src="https://jsd.cdn.zzko.cn/gh/xingpingcn/picx-images-hosting@master/20230420/image.55d0qoox6bg0.png">
       </a>
     </div>
@@ -2549,13 +2549,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
     <h2 class="article-title" itemprop="name headline">
-      <a href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" style="display:block;" itemprop="url">
+      <a href="/volantis_cdn.html" style="display:block;" itemprop="url">
         为volantis添加cdn加速
       </a>
     </h2>
   
   <div>
-    <a class="md article-desc" itemprop="articleBody" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html">
+    <a class="md article-desc" itemprop="articleBody" href="/volantis_cdn.html">
       
         <p>国内直连访问自己的网站太慢了，发现官方推荐使用cdn加速，于是试了一下，也踩了一些坑，弄完之后确实快了许多</p>
       
@@ -2588,7 +2588,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           </div>
           
             
-              <a class="readmore" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html" style="float: right; padding-left: calc(90% - 240px) ;" itemprop="url">
+              <a class="readmore" href="/volantis_cdn.html" style="float: right; padding-left: calc(90% - 240px) ;" itemprop="url">
                 <div>
                   阅读全文
                 </div>
@@ -2962,7 +2962,7 @@ Q...
 
 
   <div class="content">
-    <ul class="list entry navigation"><li><a class="widget-last" href="/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html"><div class="item"><time>2023-05-06</time><span>hexo折腾</span></div><span>为hexo博客添加自适应图片占位图</span></a></li><li><a class="widget-last" href="/hexo%E6%8A%98%E8%85%BE.html"><div class="item"><time>2023-05-06</time><span>hexo折腾</span></div><span>使用volantis中遇到的坑</span></a></li><li><a class="widget-last" href="/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"><div class="item"><time>2023-05-06</time><span>hexo折腾</span></div><span>为volantis添加cdn加速</span></a></li><li><a class="widget-last" href="/test4.html"><div class="item"><time>2023-04-26</time></div><span>test</span></a></li><li><a class="widget-last" href="/hello-world.html"><div class="item"><time>2023-04-23</time></div><span>Hello World</span></a></li></ul>
+    <ul class="list entry navigation"><li><a class="widget-last" href="/hexo_zishiyin_zhanweitu.html"><div class="item"><time>2023-05-07</time><span>hexo折腾</span></div><span>为hexo博客添加自适应图片占位图</span></a></li><li><a class="widget-last" href="/hexo%E6%8A%98%E8%85%BE.html"><div class="item"><time>2023-05-06</time><span>hexo折腾</span></div><span>使用volantis中遇到的坑</span></a></li><li><a class="widget-last" href="/volantis_cdn.html"><div class="item"><time>2023-05-06</time><span>hexo折腾</span></div><span>为volantis添加cdn加速</span></a></li><li><a class="widget-last" href="/test4.html"><div class="item"><time>2023-04-26</time></div><span>test</span></a></li><li><a class="widget-last" href="/hello-world.html"><div class="item"><time>2023-04-23</time></div><span>Hello World</span></a></li></ul>
   </div>
 </section>
 
