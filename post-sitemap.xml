@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://xingpingcn.github.io/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</loc>
+        <lastmod>2023-05-09T09:32:19.394Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.github.io/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%5B%E8%BD%AC%5D.html</loc>
         <lastmod>2023-05-08T15:38:36.136Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,14 +27,6 @@
     <url>
         <loc>https://xingpingcn.github.io/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html</loc>
         <lastmod>2023-05-08T11:43:16.517Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.github.io/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</loc>
-        <lastmod>2023-05-07T15:23:37.909Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
