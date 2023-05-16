@@ -2,14 +2,14 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://xingpingcn.vercel.app/</loc>
+        <loc>https://xingpingcn.top/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
 
     <url>
-        <loc>https://xingpingcn.vercel.app/categories/hexo%25E6%258A%2598%25E8%2585%25BE/</loc>
+        <loc>https://xingpingcn.top/categories/hexo%25E6%258A%2598%25E8%2585%25BE/</loc>
         <lastmod>2023-05-10T11:53:53.346Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
