@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://xingpingcn.github.io/</loc>
+        <loc>https://xingpingcn.vercel.app/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
@@ -10,7 +10,7 @@
     
     
     <url>
-        <loc>https://xingpingcn.github.io/about/</loc>
+        <loc>https://xingpingcn.vercel.app/about/</loc>
         <lastmod>2023-04-25T14:14:56.317Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -19,7 +19,7 @@
     
     
     <url>
-        <loc>https://xingpingcn.github.io/categories/</loc>
+        <loc>https://xingpingcn.vercel.app/categories/</loc>
         <lastmod>2023-04-19T17:00:44.816Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     
     
     <url>
-        <loc>https://xingpingcn.github.io/tags/</loc>
+        <loc>https://xingpingcn.vercel.app/tags/</loc>
         <lastmod>2023-04-18T13:29:16.666Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

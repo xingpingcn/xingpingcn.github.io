@@ -3,22 +3,22 @@
 
 
     <sitemap>
-        <loc>https://xingpingcn.github.io/post-sitemap.xml</loc>
+        <loc>https://xingpingcn.vercel.app/post-sitemap.xml</loc>
         <lastmod>2023-05-10T11:53:53.346Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://xingpingcn.github.io/page-sitemap.xml</loc>
+        <loc>https://xingpingcn.vercel.app/page-sitemap.xml</loc>
         <lastmod>2023-04-25T14:14:56.317Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://xingpingcn.github.io/category-sitemap.xml</loc>
+        <loc>https://xingpingcn.vercel.app/category-sitemap.xml</loc>
         <lastmod>2023-05-10T11:53:53.346Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://xingpingcn.github.io/tag-sitemap.xml</loc>
+        <loc>https://xingpingcn.vercel.app/tag-sitemap.xml</loc>
         <lastmod>2023-05-10T11:53:53.346Z</lastmod>
     </sitemap>
 
