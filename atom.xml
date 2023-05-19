@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>邢平cn&#39;s blog</title>
+  
+  
+  <link href="https://xingpingcn.top/atom.xml" rel="self"/>
+  
+  <link href="https://xingpingcn.top/"/>
+  <updated>2023-05-08T15:38:36.136Z</updated>
+  <id>https://xingpingcn.top/</id>
+  
+  <author>
+    <name>邢平cn</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在GIT中忽略文件操作[转]</title>
+    <link href="https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC].html"/>
+    <id>https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC].html</id>
+    <published>2023-05-08T15:32:18.776Z</published>
+    <updated>2023-05-08T15:38:36.136Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>为hexo博客添加自适应图片占位图（配合lazyload）</title>
+    <link href="https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html"/>
+    <id>https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html</id>
+    <published>2023-05-06T08:10:46.753Z</published>
+    <updated>2023-05-10T11:53:53.346Z</updated>
+    
+    
+    <summary type="html">为hexo博客解决图片抖动问题添加自适应图片占位图</summary>
+    
+    
+    
+    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>优化部署在github page的hexo-volantis的国内访问速度（dom、图片、js、css等）</title>
+    <link href="https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"/>
+    <id>https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</id>
+    <published>2023-04-21T08:35:18.593Z</published>
+    <updated>2023-05-18T10:38:43.340Z</updated>
+    
+    
+    <summary type="html">部署在github page的volantis国内访问太慢 cdn加速 图床cdn加速 弄完之后确实快了许多</summary>
+    
+    
+    
+    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用volantis中遇到的坑</title>
+    <link href="https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html"/>
+    <id>https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html</id>
+    <published>2023-04-20T15:00:16.000Z</published>
+    <updated>2023-05-06T11:19:15.984Z</updated>
+    
+    
+    <summary type="html">volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？手机模式下toc会被遮挡</summary>
+    
+    
+    
+    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
+    
+    
+    <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://xingpingcn.top/test4.html"/>
+    <id>https://xingpingcn.top/test4.html</id>
+    <published>2023-04-19T16:51:16.000Z</published>
+    <updated>2023-04-26T12:38:16.672Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;a cat&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="test" scheme="https://xingpingcn.top/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xingpingcn.top/hello-world.html"/>
+    <id>https://xingpingcn.top/hello-world.html</id>
+    <published>2023-04-18T08:09:30.189Z</published>
+    <updated>2023-04-22T18:34:01.035Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://xingpingcn.top/tags/test/"/>
+    
+  </entry>
+  
+</feed>
