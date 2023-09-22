@@ -8,4 +8,4 @@
 	https://cdn.jsdelivr.ren/gh/xingpingcn/xingpingcn.github.io@main/manifest-full.txt
 	https://cdn.jsdelivr.net/gh/xingpingcn/xingpingcn.github.io@main/manifest-full.txt
 	https://raw.githubusercontent.com/xingpingcn/xingpingcn.github.io/main/manifest-full.txt
-	hash=+Hv9jjKygkWSj5XtLXahqf2ws9F2KKPVDh2VQs2KQ+Q=
+	hash=Ywd75CC8pM/OanR6v4Cl2VGRpZtLYo6wkHAHNpb8iUU=
