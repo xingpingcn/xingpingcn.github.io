@@ -25,7 +25,7 @@ jobs:
       - name: Publish Package
         run: 
           git config --global user.email "zzy4on@outlook.com"
-          git config --global user.name "tob"
+          git config --global user.name "tobtobtob"
           npm version patch
           npm publish
         env:
