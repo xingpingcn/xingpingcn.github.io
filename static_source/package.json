@@ -1,9 +1,9 @@
 {
     "name": "html-hosting-for-xp",
-    "version": "1.0.12",
+    "version": "1.0.11",
     "description": "DO STUFF",
     "author": "XDmF",
     "files": [
-        "static_source/*.html"
+        "*.html"
     ]
 }
