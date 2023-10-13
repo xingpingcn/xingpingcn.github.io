@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html</loc>
+        <lastmod>2023-10-13T08:36:13.279Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.top/%E4%BD%BF%E7%94%A8freecdn-js%E6%8F%90%E9%AB%98hexo%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E7%A8%B3%E5%AE%9A%E6%80%A7.html</loc>
         <lastmod>2023-10-13T04:24:16.799Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -49,14 +57,6 @@
     </url>
 
     <url>
-        <loc>https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html</loc>
-        <lastmod>2023-09-03T07:10:57.098Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://xingpingcn.top/v2raywstls%E5%A4%AA%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html</loc>
         <lastmod>2023-09-03T07:10:54.539Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -75,14 +75,6 @@
     <url>
         <loc>https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%5B%E8%BD%AC%5D.html</loc>
         <lastmod>2023-05-08T15:38:36.136Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/hello-world.html</loc>
-        <lastmod>2023-04-22T18:34:01.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
