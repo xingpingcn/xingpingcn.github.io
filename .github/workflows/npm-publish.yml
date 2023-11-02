@@ -3,7 +3,7 @@ name: npm_publish
 on:
   push:
     branches:
-      - main
+      - static_site
   
 jobs:
   publish-npm:
