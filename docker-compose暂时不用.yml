@@ -1,7 +1,0 @@
-services:
-  frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - 443:443
