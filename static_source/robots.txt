@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /test4.html
+Disallow: /v2raywstls
+Disallow: https://stats.xingpingcn.top/share/XoDdV8TeKUUp8E8f/xingpingcn
+Sitemap: https://xingpingcn.top/sitemap.xml
