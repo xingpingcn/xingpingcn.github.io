@@ -1,11 +1,4 @@
-/manifest-full.txt
-	https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io@050dbb26aa/static_source/manifest-full.txt
-	https://cdn.jsdelivr.us/gh/xingpingcn/xingpingcn.github.io@050dbb26aa/static_source/manifest-full.txt
-	https://cdn.jsdelivr.ren/gh/xingpingcn/xingpingcn.github.io@050dbb26aa/static_source/manifest-full.txt
-	https://cdn.jsdelivr.net/gh/xingpingcn/xingpingcn.github.io@050dbb26aa/static_source/manifest-full.txt
-	https://raw.githubusercontent.com/xingpingcn/xingpingcn.github.io/static_site/static_source/manifest-full.txt
-	hash=Qrr6nd+xEO6Hk+FFCLiY3AX8C6IFL3HfqaXKAz5o/J0=
-@include
-	/manifest-full.txt
-@global
-	open_timeout=0s
+/css/style.css
+	https://jsd.cdn.zzko.cn/gh/xingpingcn/website.comments/style4.css
+	https://cdn.jsdelivr.net/gh/xingpingcn/website.comments/style4.css
+	hash=F839ZhZyJswxpRuWJtQQWyshcKKoITKrCMfTgmLJdBw=
