@@ -4,6 +4,8 @@
     "description": "DO STUFF",
     "author": "XDmF",
     "files": [
-        "static_source/*.html"
+        "static_source/*.html",
+        "static_source/*.css",
+        "static_source/*.js"
     ]
 }

@@ -71,8 +71,6 @@
     
     
     
-    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
-    
     
     <category term="npm" scheme="https://xingpingcn.top/tags/npm/"/>
     
@@ -92,8 +90,6 @@
     
     
     
-    <category term="python学习笔记" scheme="https://xingpingcn.top/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     
     <category term="python" scheme="https://xingpingcn.top/tags/python/"/>
     
@@ -112,8 +108,6 @@
     <summary type="html">根据md文件内的cdn链接（图片等并不在本地）自动生成cdn列表，若图片、js、html等文件cdn失效则尝试连接列表内的其他cdn，并接入透明模式</summary>
     
     
-    
-    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
     
     
     <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
@@ -174,8 +168,6 @@
     
     
     
-    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
-    
     
     <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
     
@@ -195,8 +187,6 @@
     
     
     
-    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
-    
     
     <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
     
@@ -215,8 +205,6 @@
     <summary type="html">volantis404页面不生效？sidebar效果不生效？如何更改图片尺寸？手机模式下toc会被遮挡</summary>
     
     
-    
-    <category term="hexo折腾" scheme="https://xingpingcn.top/categories/hexo%E6%8A%98%E8%85%BE/"/>
     
     
     <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
