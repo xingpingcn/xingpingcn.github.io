@@ -6,7 +6,7 @@
   <link href="https://xingpingcn.top/atom.xml" rel="self"/>
   
   <link href="https://xingpingcn.top/"/>
-  <updated>2024-02-17T14:01:08.773Z</updated>
+  <updated>2024-02-17T14:14:51.110Z</updated>
   <id>https://xingpingcn.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xingpingcn.top/try-to-run-apk-on-sp4.html"/>
     <id>https://xingpingcn.top/try-to-run-apk-on-sp4.html</id>
     <published>2024-02-17T13:25:52.177Z</published>
-    <updated>2024-02-17T14:01:08.773Z</updated>
+    <updated>2024-02-17T14:14:51.110Z</updated>
     
     <content type="html"><![CDATA[<p>目前的结论是能在使用触屏的同时运行安卓应用，也仅仅是能用。</p><span id="more"></span><p>目前尝试过几种方案</p><ul><li>fydo os</li><li><a href="https://blissos.org/index.html" target="_blank" rel="noopener external nofollow noreferrer">blissos</a></li><li>Ubuntu+anbox</li></ul><div class="story post-story"><h2 id="fydo-os"><a href="#fydo-os" class="headerlink" title="fydo os"></a>fydo os</h2><p>我只使用过免费版，目前体验下来是最流畅的，也是最不需要折腾的，但是目前免费版没触屏。遗憾</p></div><div class="story post-story"><h2 id="blissos"><a href="#blissos" class="headerlink" title="blissos"></a>blissos</h2><p>装上之后触屏时有时无，而在有的时候只是拙劣的鼠标点击模拟，基本的多指操作和滑动功能都没有，流畅度还不如<code>fydo os</code>，出的这个surface专版感觉就是纯粹让ppt好看些。</p></div><div class="story post-story"><h2 id="Ubuntu-anbox"><a href="#Ubuntu-anbox" class="headerlink" title="Ubuntu+anbox"></a>Ubuntu+anbox</h2><p>最后只能尝试在<code>Linux</code>上运行安卓了。</p><p>我装的是<code>LTS 22</code>，安装好系统后还得找hy2能用的客户端（因为要去GitHub下资源），一番折腾后找到了<a href="https://github.com/MatsuriDayo/nekoray/releases" target="_blank" rel="noopener external nofollow noreferrer">nekoray</a>这个带GUI的客户端（因为这个时候<code>sing-box</code>，<code>clashmeta</code>还有<code>hy2</code>官方都没有Linux GUI，而且路由配置还非常麻烦，没现成的作业可以抄），而<code>nekoray</code>后端用的就是<code>sing-box</code>，可惜<code>nekoray</code>自带广告。</p><p>之后刷入<a href="https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup" target="_blank" rel="noopener external nofollow noreferrer">Surface Linux Kernel</a>，触屏是有了，也仅仅是能用的程度，不太跟手，和<code>win</code>下的体验差太多。</p><p>之后安装anbox，一开始闪退，最后发现不是配置有问题，而是不支持5.17以上内核，安装<code>Surface Linux Kernel</code>的时候已经默认安装目前最新的6.6版本了，理论上降级是能用的，但是不知道修改过的<code>Surface Linux Kernel</code>能不能用，我也懒得再降级了。马上花10分钟打开PE滚回去<code>windows</code>。</p></div>]]></content>
     
