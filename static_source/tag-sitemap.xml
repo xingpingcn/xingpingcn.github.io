@@ -3,6 +3,13 @@
 
 
     <url>
+        <loc>https://xingpingcn.top/tags/npm/</loc>
+        <lastmod>2024-02-26T14:27:49.414Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://xingpingcn.top/tags/volantis/</loc>
         <lastmod>2024-02-25T09:16:04.103Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -12,13 +19,6 @@
     <url>
         <loc>https://xingpingcn.top/tags/python/</loc>
         <lastmod>2023-10-27T16:45:48.510Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/tags/npm/</loc>
-        <lastmod>2023-09-30T19:51:32.705Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
