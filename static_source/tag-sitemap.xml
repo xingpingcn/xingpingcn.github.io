@@ -4,7 +4,21 @@
 
     <url>
         <loc>https://xingpingcn.top/tags/python/</loc>
-        <lastmod>2024-03-07T12:14:14.022Z</lastmod>
+        <lastmod>2024-03-11T16:58:14.178Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://xingpingcn.top/tags/v2ray/</loc>
+        <lastmod>2024-03-11T15:58:57.763Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://xingpingcn.top/tags/volantis/</loc>
+        <lastmod>2024-03-11T15:58:57.763Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -17,22 +31,8 @@
     </url>
 
     <url>
-        <loc>https://xingpingcn.top/tags/volantis/</loc>
-        <lastmod>2024-02-25T09:16:04.103Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://xingpingcn.top/tags/test/</loc>
         <lastmod>2023-09-03T07:10:58.596Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/tags/v2ray/</loc>
-        <lastmod>2023-09-03T07:10:54.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
