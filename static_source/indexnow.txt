@@ -1,1 +1,1 @@
-https://xingpingcn.top/enhanced-FaaS-in-cn.html
+https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat.html
