@@ -9,8 +9,32 @@
 
 
     <url>
+        <loc>https://xingpingcn.top/enhanced-FaaS-in-cn.html</loc>
+        <lastmod>2024-03-21T09:19:09.690Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xingpingcn.top/crawler-learning.html</loc>
+        <lastmod>2024-03-21T05:13:07.533Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html</loc>
+        <lastmod>2024-03-21T05:12:55.635Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.top/cron-learning-note.html</loc>
-        <lastmod>2024-03-17T06:09:55.794Z</lastmod>
+        <lastmod>2024-03-19T14:44:58.360Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -27,14 +51,6 @@
     <url>
         <loc>https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat.html</loc>
         <lastmod>2024-03-14T08:57:22.343Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/enhanced-FaaS-in-cn.html</loc>
-        <lastmod>2024-03-13T15:38:58.040Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -59,14 +75,6 @@
     <url>
         <loc>https://xingpingcn.top/%E5%9C%A8python%E4%B8%AD%E8%BF%90%E8%A1%8Cbash%EF%BC%88windows%EF%BC%89.html</loc>
         <lastmod>2024-03-11T16:58:14.178Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html</loc>
-        <lastmod>2024-03-11T15:59:52.611Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -99,14 +107,6 @@
     <url>
         <loc>https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html</loc>
         <lastmod>2024-03-11T15:59:52.607Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/crawler-learning.html</loc>
-        <lastmod>2024-03-11T15:59:52.606Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
