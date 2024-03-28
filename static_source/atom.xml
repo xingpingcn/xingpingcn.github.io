@@ -6,7 +6,7 @@
   <link href="https://xingpingcn.top/atom.xml" rel="self"/>
   
   <link href="https://xingpingcn.top/"/>
-  <updated>2024-03-19T14:44:58.360Z</updated>
+  <updated>2024-03-28T02:47:45.542Z</updated>
   <id>https://xingpingcn.top/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你的常用域名被其他vercel账号使用的解决方法</title>
+    <link href="https://xingpingcn.top/domain-have-been-used-by-other-vercel-account.html"/>
+    <id>https://xingpingcn.top/domain-have-been-used-by-other-vercel-account.html</id>
+    <published>2024-03-28T02:27:26.850Z</published>
+    <updated>2024-03-28T02:47:45.542Z</updated>
+    
+    <content type="html"><![CDATA[<p>先放链接</p><div class="tag link"><a class="link-card" title="社区维护者答复" href="https://github.com/orgs/vercel/discussions/6285"><div class="left"><img src="https://cdn.jsdelivr.net/npm/volantis-static@0.0.1654736714924/media/org.volantis/logo/256/safari.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/npm/volantis-static@0.0.1654736714924/media/org.volantis/logo/256/safari.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">社区维护者答复</p><p class="url">https://github.com/orgs/vercel/discussions/6285</p></div></a></div><p>由于vercel最近在你的个人账户里添加了一个团队（team），你会发现你左上角的头像变了，然后点击中间<code>domain</code>按钮的时候发现里面并没有你之前使用过的域名。这个时候你在项目里添加域名，会提示说域名已经被其他账号使用。但是很困惑的是，只在前几天之前，你一直能够没有限制地添加域名，为什么这几天就变了。</p><p><strong>这是由于你的项目现在全部变为你的team的项目，而你的域名却仍然在你的账号之下。</strong></p><p>解决方法也很简单，点击右上角你的账号设置，然后点击左边的<code>domain</code>，选择你想要转移的域名，点击左边的三个点的按钮，然后点击<code>move</code>，就可以开始转移了。</p><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox' style='position: relative; width: 100%;'>            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240328/image.7p262fo7b.webp' data-fancybox='default' data-caption='设置域名转移' style="position: relative;background-color: rgb(204, 204, 204); padding-bottom: 48.072916666666664%;color:gray;">            <svg class="spinner0" viewBox="0 0 50 50"> <circle class="path0" cx="25" cy="25" r="20" fill="none" stroke-width="4"></circle></svg>            <img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240328/image.7p262fo7b.webp" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240328/image.7p262fo7b.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="设置域名转移" loading="lazy">            </a><span class='image-caption'>设置域名转移</span></div></div>]]></content>
+    
+    
+    <summary type="html">添加你域名的时候发现系统提示Another Vercel account is using this domain，这是由于最近vercel升级了你的账号导致的</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>cron笔记</title>
@@ -176,9 +193,9 @@
     <link href="https://xingpingcn.top/enhanced-faas-in-cn.html"/>
     <id>https://xingpingcn.top/enhanced-faas-in-cn.html</id>
     <published>2024-03-11T15:59:52.607Z</published>
-    <updated>2024-03-21T09:19:09.690Z</updated>
+    <updated>2024-03-28T02:30:32.078Z</updated>
     
-    <content type="html"><![CDATA[<div class="story post-story"><h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>先放repo，欢迎提交issue。</p><div class="tag link"><a class="link-card" title="enhanced-FaaS-in-China" href="https://github.com/xingpingcn/enhanced-FaaS-in-China"><div class="left"><img src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230506/pngwing.com.yfryst5dm0w.webp" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230506/pngwing.com.yfryst5dm0w.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">enhanced-FaaS-in-China</p><p class="url">https://github.com/xingpingcn/enhanced-FaaS-in-China</p></div></a></div><ul><li>如果你的网站部署在<code>vercel</code>，则把cname记录改为：<ul><li><code>vercel-cname.xingpingcn.eu.org</code></li></ul></li><li>如果你的网站部署在<code>netlify</code>，则把cname记录改为：<ul><li><code>netlify-cname.xingpingcn.eu.org</code></li></ul></li><li>如果你的网站部署在<code>netlify</code>和<code>vercel</code>上，则把cname记录改为：<ul><li><code>verlify-cname.xingpingcn.eu.org</code><ul><li>使用此dns解析建议：先把cname记录改为官方提供的url，等<code>ssl/tls证书</code>生成之后再把cname记录改为<code>verlify-cname.xingpingcn.eu.org</code></li></ul></li></ul></li></ul></div><div class="story post-story"><h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q：为什么分路线解析不准确？"><a href="#Q：为什么分路线解析不准确？" class="headerlink" title="Q：为什么分路线解析不准确？"></a>Q：为什么分路线解析不准确？</h3><p>A：我使用的是权威DNS服务器自带的路线解析，可能存在误判。如果你想要更加精准的分路线解析，可以自行选取其他DNS服务器——如dnspod——并添加<a href="https://raw.githubusercontent.com/xingpingcn/enhanced-FaaS-in-China/main/Netlify.json" target="_blank" rel="noopener external nofollow noreferrer">Netlify.json</a>或<a href="https://https//raw.githubusercontent.com/xingpingcn/enhanced-FaaS-in-China/main/Vercel.json" target="_blank" rel="noopener external nofollow noreferrer">Vercel.json</a>里的IP到A记录。或使用<code>NS1.COM</code>作为权威DNS服务器，并设置根据<code>ASN</code>进行路线解析。你可以看看我写的<a href="https://github.com/xingpingcn/china-mainland-asn" target="_blank" rel="noopener external nofollow noreferrer">ASN列表</a>。<br></p><h3 id="Q：为什么设置了你的CNAME解析后网站不能访问？"><a href="#Q：为什么设置了你的CNAME解析后网站不能访问？" class="headerlink" title="Q：为什么设置了你的CNAME解析后网站不能访问？"></a>Q：为什么设置了你的CNAME解析后网站不能访问？</h3><p>A：</p><ul><li>这大概率是使用了<code>verlify-cname.xingpingcn.eu.org</code>导致的。需要先把CNAME记录改为官方提供的链接，等待SSL证书生成后再重新设置。这是由于该解析包含两个平台的IP，平台每次访问都会获得二者之一的IP，因而认为你在平台所填写的域名并不是你所拥有的。但是一旦生成证书后，证书就会缓存在平台上。</li><li>netlify支持上传自己的证书。如果还是不行就申请一个能自动续期的证书，写webhook，在证书更新的时候自动部署到netlify。</li></ul></div>]]></content>
+    <content type="html"><![CDATA[<div class="story post-story"><h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>先放repo，欢迎提交issue。</p><div class="tag link"><a class="link-card" title="enhanced-FaaS-in-China" href="https://github.com/xingpingcn/enhanced-FaaS-in-China"><div class="left"><img src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230506/pngwing.com.yfryst5dm0w.webp" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230506/pngwing.com.yfryst5dm0w.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">enhanced-FaaS-in-China</p><p class="url">https://github.com/xingpingcn/enhanced-FaaS-in-China</p></div></a></div><ul><li>如果你的网站部署在<code>vercel</code>，则把cname记录改为：<ul><li><code>vercel-cname.xingpingcn.top</code></li></ul></li><li>如果你的网站部署在<code>netlify</code>，则把cname记录改为：<ul><li><code>netlify-cname.xingpingcn.top</code></li></ul></li><li>如果你的网站部署在<code>netlify</code>和<code>vercel</code>上，则把cname记录改为：<ul><li><code>verlify-cname.xingpingcn.top</code><ul><li>使用此dns解析建议：先把cname记录改为官方提供的url，等<code>ssl/tls证书</code>生成之后再把cname记录改为<code>verlify-cname.xingpingcn.top</code></li></ul></li></ul></li></ul></div><div class="story post-story"><h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><h3 id="Q：为什么分路线解析不准确？"><a href="#Q：为什么分路线解析不准确？" class="headerlink" title="Q：为什么分路线解析不准确？"></a>Q：为什么分路线解析不准确？</h3><p>A：我使用的是权威DNS服务器自带的路线解析，可能存在误判。如果你想要更加精准的分路线解析，可以自行选取其他DNS服务器——如dnspod——并添加<a href="https://raw.githubusercontent.com/xingpingcn/enhanced-FaaS-in-China/main/Netlify.json" target="_blank" rel="noopener external nofollow noreferrer">Netlify.json</a>或<a href="https://https//raw.githubusercontent.com/xingpingcn/enhanced-FaaS-in-China/main/Vercel.json" target="_blank" rel="noopener external nofollow noreferrer">Vercel.json</a>里的IP到A记录。或使用<code>NS1.COM</code>作为权威DNS服务器，并设置根据<code>ASN</code>进行路线解析。你可以看看我写的<a href="https://github.com/xingpingcn/china-mainland-asn" target="_blank" rel="noopener external nofollow noreferrer">ASN列表</a>。<br></p><h3 id="Q：为什么设置了你的CNAME解析后网站不能访问？"><a href="#Q：为什么设置了你的CNAME解析后网站不能访问？" class="headerlink" title="Q：为什么设置了你的CNAME解析后网站不能访问？"></a>Q：为什么设置了你的CNAME解析后网站不能访问？</h3><p>A：</p><ul><li>这大概率是使用了<code>verlify-cname.xingpingcn.top</code>导致的。需要先把CNAME记录改为官方提供的链接，等待SSL证书生成后再重新设置。这是由于该解析包含两个平台的IP，平台每次访问都会获得二者之一的IP，因而认为你在平台所填写的域名并不是你所拥有的。但是一旦生成证书后，证书就会缓存在平台上。</li><li>netlify支持上传自己的证书。如果还是不行就申请一个能自动续期的证书，写webhook，在证书更新的时候自动部署到netlify。</li></ul></div>]]></content>
     
     
     <summary type="html">通过更改cname提升部署在vercel或netlify的网站在中国的访问速度和稳定性</summary>
