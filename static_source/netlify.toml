@@ -1,0 +1,35 @@
+[[redirects]]
+  from = "/atom.xml"
+  to = "https://cf-blog.xingpingcn.top/atom.xml"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/post-sitemap.xml"
+  to = "https://cf-blog.xingpingcn.top/post-sitemap.xml"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "https://cf-blog.xingpingcn.top/sitemap.xml"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/robots.txt"
+  to = "https://cf-blog.xingpingcn.top/robots.txt"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/category-sitemap.xml"
+  to = "https://cf-blog.xingpingcn.top/category-sitemap.xml"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/netlify.toml"
+  to = "/404.html"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/vercel.json"
+  to = "/404.html"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
