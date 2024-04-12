@@ -10,7 +10,7 @@
 
     <url>
         <loc>https://xingpingcn.top/enhanced-faas-in-cn.html</loc>
-        <lastmod>2024-04-11T13:53:13.976Z</lastmod>
+        <lastmod>2024-04-12T15:40:11.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -73,6 +73,14 @@
     </url>
 
     <url>
+        <loc>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html</loc>
+        <lastmod>2024-03-28T15:02:37.693Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xingpingcn.top/crawler-learning.html</loc>
         <lastmod>2024-03-28T15:02:35.539Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -123,14 +131,6 @@
     <url>
         <loc>https://xingpingcn.top/cron-learning-note.html</loc>
         <lastmod>2024-03-28T15:02:15.723Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html</loc>
-        <lastmod>2024-03-21T05:12:55.635Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
