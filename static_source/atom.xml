@@ -6,7 +6,7 @@
   <link href="https://xingpingcn.top/atom.xml" rel="self"/>
   
   <link href="https://xingpingcn.top/"/>
-  <updated>2024-04-04T15:39:44.264Z</updated>
+  <updated>2024-04-27T09:22:40.923Z</updated>
   <id>https://xingpingcn.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决升级umamiv2.11时出现的P3009错误</title>
+    <link href="https://xingpingcn.top/solve-p3009-error-using-umami.html"/>
+    <id>https://xingpingcn.top/solve-p3009-error-using-umami.html</id>
+    <published>2024-04-27T08:54:41.507Z</published>
+    <updated>2024-04-27T09:22:40.923Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>鉴于中文互联网上关于这个问题的内容很少，我还是水一篇吧</p><span id="more"></span><div class="story post-story"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>先放issue</p><div class="tag link"><a class="link-card" title="p3009 issue" href="https://github.com/umami-software/umami/issues/2645#issuecomment-2080419741"><div class="left"><img src="https://cdn.jsdelivr.net/npm/volantis-static@0.0.1654736714924/media/org.volantis/logo/256/safari.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/npm/volantis-static@0.0.1654736714924/media/org.volantis/logo/256/safari.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/></div><div class="right"><p class="text">p3009 issue</p><p class="url">https://github.com/umami-software/umami/issues/2645#issuecomment-2080419741</p></div></a></div><p>我是在vercel上部署的，所以issue里面提到的用py或者shell去迁移数据库的方法我是实现不了的，只能在build阶段就把问题解决。</p></div><div class="story post-story"><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>在<code>package.json</code>找到</p><figure class="highlight plaintext"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;build-db&quot;: &quot;npm-run-all copy-db-files build-db-client&quot;,</span><br></pre></td></tr></table></figure><p>然后改成</p><figure class="highlight plaintext"><figcaption><span>package.json</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;build-db&quot;: &quot;npm-run-all copy-db-files build-db-client resolve-db&quot;,</span><br><span class="line">&quot;resolve-db&quot;: &quot;prisma migrate resolve --applied &#x27;05_add_visit_id&#x27;&quot;,</span><br></pre></td></tr></table></figure><p>就可以了</p></div><div class="story post-story"><h2 id="我是怎么样定位到问题所在的"><a href="#我是怎么样定位到问题所在的" class="headerlink" title="我是怎么样定位到问题所在的"></a>我是怎么样定位到问题所在的</h2><p>还是再写多一点</p><p>打开vercel日志，之后打开GitHub</p><div galleryFlag itemscope itemtype="http://schema.org/ImageGallery" class="gallery " data-group='default'><div class='fancybox' style='position: relative; width: 100%;'>            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.6m3p8x2h30.webp' data-fancybox='default' data-caption='vercel日志' style="position: relative;background-color: rgb(204, 204, 204); padding-bottom: 48.072916666666664%;color:gray;">            <svg class="spinner0" viewBox="0 0 50 50"> <circle class="path0" cx="25" cy="25" r="20" fill="none" stroke-width="4"></circle></svg>            <img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.6m3p8x2h30.webp" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.6m3p8x2h30.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="vercel日志" loading="lazy">            </a><span class='image-caption'>vercel日志</span></div><br><div class='fancybox' style='position: relative; width: 100%;'>            <a class='fancybox' pjax-fancybox itemscope itemtype="http://schema.org/ImageObject" itemprop="url" href='https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.4qr4gat6tr.webp' data-fancybox='default' data-caption='GitHub' style="position: relative;background-color: rgb(204, 204, 204); padding-bottom: 48.072916666666664%;color:gray;">            <svg class="spinner0" viewBox="0 0 50 50"> <circle class="path0" cx="25" cy="25" r="20" fill="none" stroke-width="4"></circle></svg>            <img fancybox itemprop="contentUrl" src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.4qr4gat6tr.webp" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240427/image.4qr4gat6tr.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="GitHub" loading="lazy">            </a><span class='image-caption'>GitHub</span></div></div><p>图片里面写的很明白，看不到或者看不懂评论区留言</p></div>]]></content>
+    
+    
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;鉴于中文互联网上关于这个问题的内容很少，我还是水一篇吧&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>列举几个免费域名和权威dns服务器</title>
@@ -379,25 +397,6 @@
     
     
     <category term="volantis" scheme="https://xingpingcn.top/tags/volantis/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://xingpingcn.top/test4.html"/>
-    <id>https://xingpingcn.top/test4.html</id>
-    <published>2023-04-19T16:51:16.000Z</published>
-    <updated>2024-03-11T15:58:57.762Z</updated>
-    
-    <content type="html"><![CDATA[<p>a cat</p><span id="more"></span><div class="story post-story"><h2 id="a-cat"><a href="#a-cat" class="headerlink" title="a cat"></a>a cat</h2><del>删除线</del><p><img src="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230419/%E8%87%AD%E5%8D%B7%E5%AE%9D.74vk4cdjex40.jpg" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230419/%E8%87%AD%E5%8D%B7%E5%AE%9D.74vk4cdjex40.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="臭卷宝" loading="lazy">  </p><p><a href="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230419/%E8%87%AD%E5%8D%B7%E5%AE%9D.74vk4cdjex40.jpg" target="_blank" rel="noopener external nofollow noreferrer"><code>臭卷宝</code></a><br><em>hh</em>  </p><p><strong>More info: <a href="https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20230419/%E8%87%AD%E5%8D%B7%E5%AE%9D.74vk4cdjex40.jpg" target="_blank" rel="noopener external nofollow noreferrer">bilibi</a></strong></p><blockquote><p>123<br>222</p><blockquote><p>2311</p></blockquote><div class="note info"><p>info about a cat</p></div></blockquote><p>视频</p><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=312255001&bvid=BV1uN411w7yY&cid=1091054572&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe></div><p>轮转（科学上网）</p><div class="tag-plugin swiper-container"><div class="swiper-wrapper"><div class="swiper-slide"><img no-lazy src="https://gcore.jsdelivr.net/gh/cdn-x/wiki@1.0.2/prohud/screenshot11.png" loading="lazy"></div><div class="swiper-slide"><img no-lazy src="https://gcore.jsdelivr.net/gh/cdn-x/wiki@1.0.2/prohud/screenshot12.png" loading="lazy"></div><div class="swiper-slide"><img no-lazy src="https://gcore.jsdelivr.net/gh/cdn-x/wiki@1.0.2/prohud/screenshot13.png" loading="lazy"></div></div><div class="swiper-pagination"></div><div class="swiper-button-prev blur"></div><div class="swiper-button-next blur"></div></div></div>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;a cat&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="test" scheme="https://xingpingcn.top/tags/test/"/>
     
   </entry>
   
