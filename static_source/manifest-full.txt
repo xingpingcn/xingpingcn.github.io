@@ -8,10 +8,6 @@
 	https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240410/Dark.b8on08otf.jpg
 	hash=Yoc7nuzRjLHaIMk4dTE6TM5VDbEkPiBTDAeiZ5qWAA8=
 
-/js/search/hexo.js
-	https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io@main/js/search/hexo.js
-	hash=tjmsGrRp9NKUZpKxowLU88VJxHiN8wWHN+VHVtDnvUg=
-
 /light.jpg
 	https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240410/light.70a4br5tic.jpg
 	hash=VKs5HQI6bIODjrZczgymlCVgzEZGF/RoiEAMZdmZL1M=
