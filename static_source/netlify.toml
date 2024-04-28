@@ -33,3 +33,13 @@
   to = "/404.html"
   force = true # COMMENT: ensure that we always redirect
   headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/enhanced-FaaS-in-cn.html"
+  to = "/enhanced-faas-in-cn.html"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+[[redirects]]
+  from = "/免费通过NS1利用监控宝平台实现实时基于不同运营商的故障转移.html"
+  to = "/免费通过ns1利用监控宝平台实现实时基于不同运营商的故障转移.html"
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
