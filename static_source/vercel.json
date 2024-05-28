@@ -7,6 +7,6 @@
       { "source": "/category-sitemap.xml", "destination": "https://cf-blog.xingpingcn.top/category-sitemap.xml", "permanent": false },
       { "source": "/enhanced-FaaS-in-cn.html", "destination": "/enhanced-faas-in-cn.html", "permanent": false },
       { "source": "/免费通过NS1利用监控宝平台实现实时基于不同运营商的故障转移.html", "destination": "/免费通过ns1利用监控宝平台实现实时基于不同运营商的故障转移.html", "permanent": false },
-      { "source": "/:path((?!\\.html|\/))$", "destination": "/:path.html", "permanent": false }
+      { "source": "/:path(.*(?!\\.(?:html|js|css|webp|jpg|ico)|\/)$)", "destination": "/:path*.html", "permanent": false }
     ]
   }
