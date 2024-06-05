@@ -10,7 +10,15 @@
 
     <url>
         <loc>https://xingpingcn.top/docker-learning-notes.html</loc>
-        <lastmod>2024-06-02T14:40:40.847Z</lastmod>
+        <lastmod>2024-06-05T13:32:23.817Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xingpingcn.top/solve-p3009-error-using-umami.html</loc>
+        <lastmod>2024-06-03T14:34:47.221Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -51,14 +59,6 @@
     <url>
         <loc>https://xingpingcn.top/hexo%E6%8A%98%E8%85%BE.html</loc>
         <lastmod>2024-04-27T12:58:00.028Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xingpingcn.top/solve-p3009-error-using-umami.html</loc>
-        <lastmod>2024-04-27T09:22:40.923Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
