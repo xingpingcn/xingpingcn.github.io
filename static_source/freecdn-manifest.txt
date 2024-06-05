@@ -1,13 +1,16 @@
-/manifest-full.txt
-	https://jsd.cdn.zzko.cn/gh/xingpingcn/xingpingcn.github.io@9ae5915483/static_source/manifest-full.txt
-	https://cdn.jsdelivr.us/gh/xingpingcn/xingpingcn.github.io@9ae5915483/static_source/manifest-full.txt
-	https://cdn.jsdelivr.ren/gh/xingpingcn/xingpingcn.github.io@9ae5915483/static_source/manifest-full.txt
-	https://cdn.jsdelivr.net/gh/xingpingcn/xingpingcn.github.io@9ae5915483/static_source/manifest-full.txt
-	https://raw.githubusercontent.com/xingpingcn/xingpingcn.github.io/static_site/static_source/manifest-full.txt
-	hash=cIzu56VP/k5SnHaeUkjyOzKEel1hj0phcnMABA7v+CI=
+/css/style.css
+	https://cdn.jsdelivr.net/npm/p-hosting-for-xp@1.0.45/style4.css
+	https://jsd.onmicrosoft.cn/npm/p-hosting-for-xp@1.0.45/style4.css
+	https://jsd.cdn.zzko.cn/npm/p-hosting-for-xp@1.0.45/style4.css
+	hash=77o/7XxH0z9wu073WvAnd3jSz/i3SbiWnwgLZFi6byc=
 
-@include
-	/manifest-full.txt
+/Dark.jpg
+	https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240410/Dark.b8on08otf.jpg
+	hash=Yoc7nuzRjLHaIMk4dTE6TM5VDbEkPiBTDAeiZ5qWAA8=
+
+/light.jpg
+	https://cdn.jsdelivr.net/gh/xingpingcn/picx-images-hosting@master/20240410/light.70a4br5tic.jpg
+	hash=VKs5HQI6bIODjrZczgymlCVgzEZGF/RoiEAMZdmZL1M=
 
 @global
 	open_timeout=0
