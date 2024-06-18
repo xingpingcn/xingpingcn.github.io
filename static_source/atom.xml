@@ -18,8 +18,8 @@
   
   <entry>
     <title>curl遇到的坑</title>
-    <link href="https://xingpingcn.top/curl-learning.html"/>
-    <id>https://xingpingcn.top/curl-learning.html</id>
+    <link href="https://xingpingcn.top/curl-learning"/>
+    <id>https://xingpingcn.top/curl-learning</id>
     <published>2024-06-09T09:21:09.243Z</published>
     <updated>2024-06-09T10:20:50.650Z</updated>
     
@@ -35,8 +35,8 @@
   
   <entry>
     <title>解决升级umamiv2.11时出现的P3009错误</title>
-    <link href="https://xingpingcn.top/solve-p3009-error-using-umami.html"/>
-    <id>https://xingpingcn.top/solve-p3009-error-using-umami.html</id>
+    <link href="https://xingpingcn.top/solve-p3009-error-using-umami"/>
+    <id>https://xingpingcn.top/solve-p3009-error-using-umami</id>
     <published>2024-04-27T08:54:41.507Z</published>
     <updated>2024-06-03T14:34:47.221Z</updated>
     
@@ -53,8 +53,8 @@
   
   <entry>
     <title>列举几个免费域名和权威dns服务器</title>
-    <link href="https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%92%8C%E6%9D%83%E5%A8%81dns%E6%9C%8D%E5%8A%A1%E5%99%A8.html"/>
-    <id>https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%92%8C%E6%9D%83%E5%A8%81dns%E6%9C%8D%E5%8A%A1%E5%99%A8.html</id>
+    <link href="https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%92%8C%E6%9D%83%E5%A8%81dns%E6%9C%8D%E5%8A%A1%E5%99%A8"/>
+    <id>https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%E5%92%8C%E6%9D%83%E5%A8%81dns%E6%9C%8D%E5%8A%A1%E5%99%A8</id>
     <published>2024-04-04T14:31:45.765Z</published>
     <updated>2024-04-04T15:39:44.264Z</updated>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>你的常用域名被其他vercel账号使用的解决方法</title>
-    <link href="https://xingpingcn.top/domain-have-been-used-by-other-vercel-account.html"/>
-    <id>https://xingpingcn.top/domain-have-been-used-by-other-vercel-account.html</id>
+    <link href="https://xingpingcn.top/domain-have-been-used-by-other-vercel-account"/>
+    <id>https://xingpingcn.top/domain-have-been-used-by-other-vercel-account</id>
     <published>2024-03-28T02:27:26.850Z</published>
     <updated>2024-03-28T15:02:54.093Z</updated>
     
@@ -87,8 +87,8 @@
   
   <entry>
     <title>cron笔记</title>
-    <link href="https://xingpingcn.top/cron-learning-note.html"/>
-    <id>https://xingpingcn.top/cron-learning-note.html</id>
+    <link href="https://xingpingcn.top/cron-learning-note"/>
+    <id>https://xingpingcn.top/cron-learning-note</id>
     <published>2024-03-14T16:29:28.925Z</published>
     <updated>2024-06-09T14:14:32.767Z</updated>
     
@@ -104,8 +104,8 @@
   
   <entry>
     <title>让在vpc中的aws lambda函数不通过nat获得访问互联网的能力</title>
-    <link href="https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat.html"/>
-    <id>https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat.html</id>
+    <link href="https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat"/>
+    <id>https://xingpingcn.top/aws-lambda-access-internet-in-vpc-without-nat</id>
     <published>2024-03-14T06:17:47.909Z</published>
     <updated>2024-03-28T15:02:26.965Z</updated>
     
@@ -121,8 +121,8 @@
   
   <entry>
     <title>在存在父子文件结构情况下使用python import</title>
-    <link href="https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html"/>
-    <id>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import.html</id>
+    <link href="https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import"/>
+    <id>https://xingpingcn.top/%E5%9C%A8%E5%AD%98%E5%9C%A8%E7%88%B6%E5%AD%90%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E4%B8%8B%E4%BD%BF%E7%94%A8py_import</id>
     <published>2024-03-11T15:59:52.611Z</published>
     <updated>2024-05-24T10:28:12.864Z</updated>
     
@@ -142,8 +142,8 @@
   
   <entry>
     <title>在python中运行bash实时输出结果（windows）</title>
-    <link href="https://xingpingcn.top/%E5%9C%A8python%E4%B8%AD%E8%BF%90%E8%A1%8Cbash%EF%BC%88windows%EF%BC%89.html"/>
-    <id>https://xingpingcn.top/%E5%9C%A8python%E4%B8%AD%E8%BF%90%E8%A1%8Cbash%EF%BC%88windows%EF%BC%89.html</id>
+    <link href="https://xingpingcn.top/%E5%9C%A8python%E4%B8%AD%E8%BF%90%E8%A1%8Cbash%EF%BC%88windows%EF%BC%89"/>
+    <id>https://xingpingcn.top/%E5%9C%A8python%E4%B8%AD%E8%BF%90%E8%A1%8Cbash%EF%BC%88windows%EF%BC%89</id>
     <published>2024-03-11T15:59:52.610Z</published>
     <updated>2024-03-28T15:02:25.243Z</updated>
     
@@ -163,8 +163,8 @@
   
   <entry>
     <title>使用freecdn-js提高hexo博客的cdn稳定性（接入透明模式）</title>
-    <link href="https://xingpingcn.top/%E4%BD%BF%E7%94%A8freecdn-js%E6%8F%90%E9%AB%98hexo%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E7%A8%B3%E5%AE%9A%E6%80%A7.html"/>
-    <id>https://xingpingcn.top/%E4%BD%BF%E7%94%A8freecdn-js%E6%8F%90%E9%AB%98hexo%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E7%A8%B3%E5%AE%9A%E6%80%A7.html</id>
+    <link href="https://xingpingcn.top/%E4%BD%BF%E7%94%A8freecdn-js%E6%8F%90%E9%AB%98hexo%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E7%A8%B3%E5%AE%9A%E6%80%A7"/>
+    <id>https://xingpingcn.top/%E4%BD%BF%E7%94%A8freecdn-js%E6%8F%90%E9%AB%98hexo%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E7%A8%B3%E5%AE%9A%E6%80%A7</id>
     <published>2024-03-11T15:59:52.609Z</published>
     <updated>2024-03-28T15:02:19.499Z</updated>
     
@@ -184,8 +184,8 @@
   
   <entry>
     <title>国内各个as自治系统[转]</title>
-    <link href="https://xingpingcn.top/%E5%9B%BD%E5%86%85%E5%90%84%E4%B8%AAas%E7%B3%BB%E7%BB%9F.html"/>
-    <id>https://xingpingcn.top/%E5%9B%BD%E5%86%85%E5%90%84%E4%B8%AAas%E7%B3%BB%E7%BB%9F.html</id>
+    <link href="https://xingpingcn.top/%E5%9B%BD%E5%86%85%E5%90%84%E4%B8%AAas%E7%B3%BB%E7%BB%9F"/>
+    <id>https://xingpingcn.top/%E5%9B%BD%E5%86%85%E5%90%84%E4%B8%AAas%E7%B3%BB%E7%BB%9F</id>
     <published>2024-03-11T15:59:52.609Z</published>
     <updated>2024-03-11T15:59:52.609Z</updated>
     
@@ -208,8 +208,8 @@
   
   <entry>
     <title>免费通过NS1利用监控宝平台实现实时基于不同运营商的故障转移</title>
-    <link href="https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E9%80%9A%E8%BF%87ns1%E5%88%A9%E7%94%A8%E7%9B%91%E6%8E%A7%E5%AE%9D%E5%B9%B3%E5%8F%B0%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E5%9F%BA%E4%BA%8E%E4%B8%8D%E5%90%8C%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E6%95%85%E9%9A%9C%E8%BD%AC%E7%A7%BB.html"/>
-    <id>https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E9%80%9A%E8%BF%87ns1%E5%88%A9%E7%94%A8%E7%9B%91%E6%8E%A7%E5%AE%9D%E5%B9%B3%E5%8F%B0%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E5%9F%BA%E4%BA%8E%E4%B8%8D%E5%90%8C%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E6%95%85%E9%9A%9C%E8%BD%AC%E7%A7%BB.html</id>
+    <link href="https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E9%80%9A%E8%BF%87ns1%E5%88%A9%E7%94%A8%E7%9B%91%E6%8E%A7%E5%AE%9D%E5%B9%B3%E5%8F%B0%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E5%9F%BA%E4%BA%8E%E4%B8%8D%E5%90%8C%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E6%95%85%E9%9A%9C%E8%BD%AC%E7%A7%BB"/>
+    <id>https://xingpingcn.top/%E5%85%8D%E8%B4%B9%E9%80%9A%E8%BF%87ns1%E5%88%A9%E7%94%A8%E7%9B%91%E6%8E%A7%E5%AE%9D%E5%B9%B3%E5%8F%B0%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E5%9F%BA%E4%BA%8E%E4%B8%8D%E5%90%8C%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E6%95%85%E9%9A%9C%E8%BD%AC%E7%A7%BB</id>
     <published>2024-03-11T15:59:52.609Z</published>
     <updated>2024-05-27T15:57:55.895Z</updated>
     
@@ -225,8 +225,8 @@
   
   <entry>
     <title>尝试在闲置的surface pro 4上运行安卓应用</title>
-    <link href="https://xingpingcn.top/try-to-run-apk-on-sp4.html"/>
-    <id>https://xingpingcn.top/try-to-run-apk-on-sp4.html</id>
+    <link href="https://xingpingcn.top/try-to-run-apk-on-sp4"/>
+    <id>https://xingpingcn.top/try-to-run-apk-on-sp4</id>
     <published>2024-03-11T15:59:52.608Z</published>
     <updated>2024-03-28T15:03:32.385Z</updated>
     
@@ -242,8 +242,8 @@
   
   <entry>
     <title>提升部署在cloudflare、vercel或netlify的网站在中国国内的访问速度和稳定性</title>
-    <link href="https://xingpingcn.top/enhanced-faas-in-cn.html"/>
-    <id>https://xingpingcn.top/enhanced-faas-in-cn.html</id>
+    <link href="https://xingpingcn.top/enhanced-faas-in-cn"/>
+    <id>https://xingpingcn.top/enhanced-faas-in-cn</id>
     <published>2024-03-11T15:59:52.607Z</published>
     <updated>2024-06-13T13:29:50.077Z</updated>
     
@@ -259,8 +259,8 @@
   
   <entry>
     <title>npm图床（不需要本地部署）</title>
-    <link href="https://xingpingcn.top/npm%E5%9B%BE%E5%BA%8A%EF%BC%88%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%EF%BC%89.html"/>
-    <id>https://xingpingcn.top/npm%E5%9B%BE%E5%BA%8A%EF%BC%88%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%EF%BC%89.html</id>
+    <link href="https://xingpingcn.top/npm%E5%9B%BE%E5%BA%8A%EF%BC%88%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%EF%BC%89"/>
+    <id>https://xingpingcn.top/npm%E5%9B%BE%E5%BA%8A%EF%BC%88%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%EF%BC%89</id>
     <published>2024-03-11T15:59:52.607Z</published>
     <updated>2024-03-28T15:03:24.627Z</updated>
     
@@ -280,8 +280,8 @@
   
   <entry>
     <title>记录某一测速网站的js逆向的过程</title>
-    <link href="https://xingpingcn.top/crawler-learning.html"/>
-    <id>https://xingpingcn.top/crawler-learning.html</id>
+    <link href="https://xingpingcn.top/crawler-learning"/>
+    <id>https://xingpingcn.top/crawler-learning</id>
     <published>2024-03-11T15:59:52.606Z</published>
     <updated>2024-03-28T15:02:35.539Z</updated>
     
@@ -299,8 +299,8 @@
   
   <entry>
     <title>docker学习笔记</title>
-    <link href="https://xingpingcn.top/docker-learning-notes.html"/>
-    <id>https://xingpingcn.top/docker-learning-notes.html</id>
+    <link href="https://xingpingcn.top/docker-learning-notes"/>
+    <id>https://xingpingcn.top/docker-learning-notes</id>
     <published>2024-03-11T15:59:52.606Z</published>
     <updated>2024-06-09T14:53:37.278Z</updated>
     
@@ -316,8 +316,8 @@
   
   <entry>
     <title>v2ray+ws+tls太慢解决方法</title>
-    <link href="https://xingpingcn.top/v2raywstls%E5%A4%AA%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html"/>
-    <id>https://xingpingcn.top/v2raywstls%E5%A4%AA%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html</id>
+    <link href="https://xingpingcn.top/v2raywstls%E5%A4%AA%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"/>
+    <id>https://xingpingcn.top/v2raywstls%E5%A4%AA%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95</id>
     <published>2023-05-25T09:41:15.519Z</published>
     <updated>2024-06-05T14:15:54.146Z</updated>
     
@@ -335,8 +335,8 @@
   
   <entry>
     <title>在GIT中忽略文件操作[转]</title>
-    <link href="https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC].html"/>
-    <id>https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC].html</id>
+    <link href="https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC]"/>
+    <id>https://xingpingcn.top/%E5%9C%A8GIT%E4%B8%AD%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C[%E8%BD%AC]</id>
     <published>2023-05-08T15:32:18.776Z</published>
     <updated>2023-05-08T15:38:36.136Z</updated>
     
@@ -356,8 +356,8 @@
   
   <entry>
     <title>为hexo博客添加自适应图片占位图（配合lazyload）</title>
-    <link href="https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html"/>
-    <id>https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE.html</id>
+    <link href="https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE"/>
+    <id>https://xingpingcn.top/%E4%B8%BAhexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%87%AA%E9%80%82%E5%BA%94%E5%9B%BE%E7%89%87%E5%8D%A0%E4%BD%8D%E5%9B%BE</id>
     <published>2023-05-06T08:10:46.753Z</published>
     <updated>2024-03-28T15:02:21.312Z</updated>
     
@@ -377,8 +377,8 @@
   
   <entry>
     <title>优化部署在github page的hexo-volantis的国内访问速度（dom、图片、js、css等）</title>
-    <link href="https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html"/>
-    <id>https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F.html</id>
+    <link href="https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F"/>
+    <id>https://xingpingcn.top/%E4%B8%BAvolantis%E6%B7%BB%E5%8A%A0cdn%E5%8A%A0%E9%80%9F</id>
     <published>2023-04-21T08:35:18.593Z</published>
     <updated>2024-04-27T13:09:04.908Z</updated>
     
