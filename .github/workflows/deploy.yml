@@ -39,6 +39,6 @@ jobs:
         with:
           project: "xingpingcn-xingpingcng-28"
           entrypoint: "https://deno.land/std@0.188.0/http/file_server.ts"
-          root: "."
-          include: .next, public
+          root: "/static_source"
+          
           
